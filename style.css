@@ -59,11 +59,32 @@ body {
   margin: auto;
   width:calc(100% - 0.5px);
   min-width: initial;
+  height: 100%;
 }
 
-#why-subtitle1, #why-subtitle2 {
+h1 {
+  font-size: 75px;
+}
+
+.why {
   text-align: center;
-  font-size: 30px;
+  background-color: white;
+}
+
+#bgVideovideo {
+  opacity: 1;
+  margin: auto;
+  position: absolute;
+  min-width: 980px;
+  min-height: 551px;
+  left: 0px;
+  top: -75px;
+}
+
+.reasons {
+  background-color: gray;
+  font-style: jura, sans-serif;
+  font-size: 18px;
 }
 
 .container {
@@ -74,9 +95,6 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px 0;
-}
-
-.about {
   text-align: center;
 }
 
@@ -84,31 +102,29 @@ body {
   background-color: cyan;
 }
 
-.why-container:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-h1, h2, h3, h4 {
-  color: #333;
-}
-
-p {
-  line-height: 1.5;
-}
-
 #footer {
-  background-color: #2f2f2f;
+  background-color: white
   padding: 50px 100;
 }
 
-#footer h4 {
-  color: white;
+#footer-nav {
+  color: black;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  text-decoration: none;
+  letter-spacing: 0.25em;
+  display: block;
+  overflow-x: visible;
+  text-align: center;
+}
+#footer-nav li {
+  display: inline;
+  padding: 125px;
 }
 
-#footer p {
-  color: white;
+#footer a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 a {
