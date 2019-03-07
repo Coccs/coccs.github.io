@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  color: #555;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+  background-color: white;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header a {
+  color: black;
+  text-decoration: none;
+
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+    color: cyan;
+}
+
+#header-title {
+  text-align: left;
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-phone {
+  display: block;
+  margin: auto;
+  font-size: 50px;
+  text-align: center;
+}
+
+#header-nav {
+  display: block;
+  margin-top: 0;
+  text-align: right;
+  overflow-x: visible;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+  overflow: visible;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#GMap {
+  margin: auto;
+  width:calc(100% - 0.5px);
+  min-width: initial;
+}
+
+#why-subtitle1, #why-subtitle2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.about {
+  text-align: center;
+}
+
+#about-title {
+  background-color: cyan;
+}
+
+.why-container:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#footer {
+  background-color: #2f2f2f;
+  padding: 50px 100;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F6A623;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
