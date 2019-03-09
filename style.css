@@ -1,74 +1,89 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-  color: #555;
+  color: #000000;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
 }
 
 #header {
-  background-color: #ffffff;
+  background-color: white;
   height: 150px;
-  line-height: 150px;
+  font-family:impact,sans-serif;
 }
 
 #header a {
-  color: #000000;
+  color: black;
   text-decoration: none;
-
-
   text-transform: uppercase;
-  letter-spacing: 0.1em;
 }
 
 #header a:hover {
-    color: #4bfafa;
+    color: #F6A623;
 }
 
 #header-title {
   text-align: left;
   display: block;
   float: left;
-  font-size: 20px;
-  font-weight: bold;
+}
+
+#header-title img {
+  object-position: 50% 50%;
+  width: 400px;
+  height: 100px;
+  object-fit: cover;
 }
 
 #header-phone {
-  display: block;
-  margin: auto;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 100px;
   font-size: 50px;
   text-align: center;
 }
 
 #header-nav {
-  display: block;
-  margin-top: 0;
+  display: inline-block;
+  padding: 0;
+  margin-left: 50px;
   text-align: right;
-  overflow-x: visible;
 }
 
 #header-nav li {
+  padding-left: 50px;
   display: inline;
-  padding-left: 20px;
-  overflow: visible;
-  box-sizing: border-box;
-  position: relative;
 }
 
-#GMap {
+#YMap {
+  border: 0;
   margin: auto;
   width:calc(100% - 0.5px);
   min-width: initial;
-  height: 100%;
+  height: 350px;
+}
+
+#GMap {
+  border: 0;
+  margin: auto;
+  width:calc(100% - 0.5px);
+  min-width: initial;
+  height: 350px;
 }
 
 h1 {
   font-size: 75px;
+  background-color: cyan;
 }
 
 .why {
   text-align: center;
-  background-color: #ffffff;
+  background-color: white;
+}
+
+.contact {
+  text-align: center;
+  font-size: 15px;
 }
 
 #bgVideovideo {
@@ -82,8 +97,8 @@ h1 {
 }
 
 .reasons {
-  background-color: #919494;
-  font-style: jura, sans-serif;
+  background-color: gray;
+  font-style: sans-serif;
   font-size: 18px;
 }
 
@@ -91,45 +106,60 @@ h1 {
   margin: 0 auto;
 }
 
-.about {
-  max-width: 800px;
+h1 {
   margin: 0 auto;
   padding: 60px 0;
   text-align: center;
-}
-
-#about-title {
-  background-color: #4bfafa;
+  background-color: cyan;
 }
 
 #footer {
-  background-color: #ffffff;
-  padding: 50px 100;
+  background-color: white;
 }
 
 #footer-nav {
-  color: #000000;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.25em;
   display: block;
-  overflow-x: visible;
+  text-decoration: none;
+  overflow: hidden;
   text-align: center;
 }
 #footer-nav li {
   display: inline;
-  padding: 125px;
+  padding: 75px;
 }
 
 #footer a {
-  color: #000000;
   font-size: 20px;
   font-weight: bold;
-}
-
-a {
   color: #1abc9c;
   text-decoration: none;
+}
+
+#footer-data li {
+  padding: 150px;
+  font-size: 10px;
+  display: inline;
+  padding: 0;
+}
+
+#footer-data1 {
+  width: 310px;
+  min-height: 17px;
+  margin: 0;
+  font-size: 10px;
+  padding: 0;
+  width: 350px;
+  text-align: left;
+}
+
+#footer-data2 {
+  width: 469px;
+  min-height: 17px;
+  margin: 0;
+  font-size: 10px;
+  padding: 0;
+  width: 350px;
+  text-align: right;
 }
 
 a:hover {
