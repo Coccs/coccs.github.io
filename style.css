@@ -33,7 +33,6 @@ body {
   width: 400px;
   height: 100px;
   object-fit: cover;
-  text-align: left;
 
 }
 
@@ -63,11 +62,6 @@ body {
   width:calc(100% - 0.5px);
   min-width: initial;
   height: 350px;
-}
-
-h1 {
-  font-size: 75px;
-  background-color: cyan;
 }
 
 .why {
@@ -100,11 +94,23 @@ h1 {
   margin: 0 auto;
 }
 
-h1 {
-  margin: 0 auto;
-  padding: 60px 0;
+#clients-title {
   text-align: center;
-  background-color: cyan;
+  font-size: 75px;
+}
+
+#why-title {
+  font-size: 75px;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+  font-weight: bold;
+}
+
+#clients-list li {
+  display: inline;
+  padding: 35px;
+  
 }
 
 #footer {
